@@ -11,7 +11,7 @@ $$$$$$$$\                    $$\
                                          $$ |      \$$$$$$  |
                                          \__|       \______/ 
 """
-from botstat import *
+from tgbotstat import *
 
 # Charger les statistiques existantes
 statistiques = charger_statistiques()

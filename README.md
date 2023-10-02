@@ -1,21 +1,21 @@
-# botstat
+# tgbotstat
 
-**botstat** est un package Python qui vous permet de suivre et d'enregistrer des statistiques d'utilisation de votre bot Telegram. Il peut enregistrer le nombre d'utilisations de chaque commande, les utilisateurs qui ont utilisé ces commandes, les heures auxquelles les commandes sont utilisées, et plus encore.
+**tgbotstat** est un package Python qui vous permet de suivre et d'enregistrer des statistiques d'utilisation de votre bot Telegram. Il peut enregistrer le nombre d'utilisations de chaque commande, les utilisateurs qui ont utilisé ces commandes, les heures auxquelles les commandes sont utilisées, et plus encore.
 
 ## Installation
 
-Vous pouvez installer **botstat** à l'aide de `pip`. Assurez-vous d'avoir `pip` installé, puis exécutez la commande suivante :
+Vous pouvez installer **tgbotstat** à l'aide de `pip`. Assurez-vous d'avoir `pip` installé, puis exécutez la commande suivante :
 
 ```bash
-pip install botstat
+pip install tgbotstat
 ```
 
 # Utilisation
 
-Une fois que vous avez installé **botstat**, vous pouvez l'importer dans votre code Python pour suivre et enregistrer des statistiques d'utilisation. Voici comment vous pouvez l'utiliser dans votre projet :
+Une fois que vous avez installé **tgbotstat**, vous pouvez l'importer dans votre code Python pour suivre et enregistrer des statistiques d'utilisation. Voici comment vous pouvez l'utiliser dans votre projet :
 
 ```python
-from botstat import *
+from tgbotstat import *
 
 # Charger les statistiques existantes
 statistiques = charger_statistiques()
@@ -48,11 +48,11 @@ Vous pouvez également utiliser d'autres fonctions et classes exposées par le p
 
 # Contribution
 
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer botstat ou ajouter de nouvelles fonctionnalités, n'hésitez pas à ouvrir une demande d'extraction (Pull Request) ou à signaler des problèmes (Issues) sur https://github.com/codingtuto/botstat.
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer tgbotstat ou ajouter de nouvelles fonctionnalités, n'hésitez pas à ouvrir une demande d'extraction (Pull Request) ou à signaler des problèmes (Issues) sur https://github.com/codingtuto/tgbotstat.
 
 ## Travail prévu
 
-Nous prévoyons d'ajouter plusieurs fonctionnalités et améliorations à `botstat` dans les futures versions. Voici un aperçu des travaux prévus :
+Nous prévoyons d'ajouter plusieurs fonctionnalités et améliorations à `tgbotstat` dans les futures versions. Voici un aperçu des travaux prévus :
 
 - Ajout d'un système de génération de statistiques sous forme de graphiques pour une visualisation plus conviviale des données d'utilisation.
 - Extension des données analytiques pour fournir des informations plus détaillées sur l'utilisation des commandes.
@@ -61,10 +61,10 @@ Nous prévoyons d'ajouter plusieurs fonctionnalités et améliorations à `botst
 - Documentation étendue avec des exemples d'utilisation avancés.
 - Correction de bugs et optimisations de performances.
 
-Nous sommes ouverts aux suggestions de la communauté et aux contributions. Si vous avez des idées d'améliorations ou de nouvelles fonctionnalités que vous aimeriez voir dans `botstat`, n'hésitez pas à ouvrir une issue ou à proposer une pull request sur notre [repository GitHub](https://github.com/codingtuto/botstat).
+Nous sommes ouverts aux suggestions de la communauté et aux contributions. Si vous avez des idées d'améliorations ou de nouvelles fonctionnalités que vous aimeriez voir dans `tgbotstat`, n'hésitez pas à ouvrir une issue ou à proposer une pull request sur notre [repository GitHub](https://github.com/codingtuto/tgbotstat).
 
-N'hésitez pas à suivre notre développement et à contribuer à l'amélioration de ce package. Nous sommes impatients de voir comment `botstat` évoluera à l'avenir !
+N'hésitez pas à suivre notre développement et à contribuer à l'amélioration de ce package. Nous sommes impatients de voir comment `tgbotstat` évoluera à l'avenir !
 
 # License
 
-Ce projet est sous licence MIT. Pour plus d'informations, consultez le fichier LICENSE inclus dans ce package.
+Ce projet est sous licence MIT. Pour plus d'informations, consultez le fichier LICENSE.

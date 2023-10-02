@@ -17,14 +17,14 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="botstat",
+    name="tgbotstat",
     version="1.0.0",
     author="Coding Team",
     author_email="codingteam@telegmail.com",
     description="Un outil pour suivre les statistiques d'utilisation des commandes d'un bot Telegram.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/codingtuto/botstat",
+    url="https://github.com/codingtuto/tgbotstat",
     packages=["botstat"],
     classifiers=[
         "Programming Language :: Python :: 3",
